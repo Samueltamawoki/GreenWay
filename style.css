@@ -89,3 +89,74 @@ h2 {
     text-align: right;
     max-width: 400px;
 }
+
+body {
+    background-color: #f8fbf8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d3436;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #1b4d3e 0%, #2ecc71 100%);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.card-frete {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: 1px solid #e0eee0;
+}
+
+h2 {
+    color: #1b4d3e;
+    font-weight: 800;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #eee;
+    padding: 12px;
+    transition: all 0.3s;
+}
+
+.form-control:focus {
+    border-color: #2ecc71;
+    box-shadow: 0 0 0 0.25rem rgba(46, 204, 113, 0.25);
+}
+
+.btn-success {
+    background-color: #27ae60;
+    border: none;
+    font-weight: 600;
+    padding: 12px;
+    transition: transform 0.2s;
+}
+
+.btn-success:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+}
+
+/* Estilo da Tabela */
+.table-container {
+    margin-top: 3rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.table thead {
+    background-color: #1b4d3e;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f0fff4;
+}
