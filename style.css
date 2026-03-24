@@ -54,7 +54,7 @@ h2 {
 .footer-container {
     background-color: var(--verde-principal));
     /* Cinza claro da imagem */
-    padding: 40px 60px;
+    padding: 68px 30px;
     display: flex;
     justify-content: space-between;
     /* Separa os ícones do texto */
