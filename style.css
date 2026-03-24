@@ -50,3 +50,42 @@ h2 {
   padding: 10px;
   border-radius: 10px;
 }
+
+.footer-container {
+    background-color: var(--verde-principal));
+    /* Cinza claro da imagem */
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    /* Separa os ícones do texto */
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    background-color: var(--verde-principal)
+    /* Linha azul opcional do topo */
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    /* Espaço entre os ícones */
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    /* Cor dos ícones */
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+/* Cores ao passar o mouse (hover) */
+.social-icons a:hover {
+    color: #00aaff;
+}
+
+.footer-text {
+    color: #fefffd;
+    font-size: 16px;
+    text-align: right;
+    max-width: 400px;
+}
