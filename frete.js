@@ -29,12 +29,26 @@ function calcularFrete() {
   }
 
   let sudeste = ["SP", "RJ", "MG", "ES"];
+  let sul = ["PR", "SC", "RS"];
+  let centroOeste = ["DF", "GO", "MT", "MS"];
+  let norte = ["AC", "AP", "AM", "PA", "RO", "RR", "TO"];
+  let nordeste = ["AL", "BA", "CE", "MA", "PB", "PE", "PI", "RN", "SE"]
 
   if (sudeste.includes(uf)) {
     document.getElementById("resultadoFrete").innerHTML =
       "🎉 Frete Grátis para sua região!";
-  } else {
+  } else if(sul.includes(uf)) {
     document.getElementById("resultadoFrete").innerHTML =
-      "Valor do Frete: R$ 20,00";
-  }
+      "Valor do Frete: R$ 5,00";
+  } else if(centroOeste.includes(uf)){
+    document.getElementById("resultadoFrete").innerHTML =
+      "Valor do Frete: R$ 15,00";
+  } else if(norte.includes(uf)){
+    document.getElementById("resultadoFrete").innerHTML =
+      "Valor do Frete: R$ 25,00";
+} else if(nordeste.includes(uf)){
+    document.getElementById("resultadoFrete").innerHTML =
+      "Valor do Frete: R$ 30,00";
+}
+
 }
