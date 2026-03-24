@@ -1,0 +1,52 @@
+:root {
+  --verde-principal: #2F6F4E;
+  --verde-escuro: #24563C;
+  --verde-claro: #DDEEE4;
+  --bege-claro: #F5F1E8;
+}
+
+body {
+  background-color: var(--bege-claro);
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: var(--verde-principal);
+}
+
+h2 {
+  color: var(--verde-principal);
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  border-radius: 12px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-success {
+  background-color: var(--verde-principal);
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: var(--verde-escuro);
+}
+
+#endereco {
+  background-color: var(--verde-claro);
+  padding: 10px;
+  border-radius: 10px;
+}
